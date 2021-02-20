@@ -10,3 +10,15 @@ function fullName(firstName, lastName) {
     })(firstNames, lastNames)
 }
 fullName(firstNames, lastNames)
+
+
+
+//======================SECOND ATTEMPT===================
+
+console.log("==============Second attempt============");
+(function (firstName, lastName) {
+    for (let i in firstName) {
+        console.log(`${firstName[i]} ${lastName[i]}`);
+    }
+
+})(firstNames, lastNames);
