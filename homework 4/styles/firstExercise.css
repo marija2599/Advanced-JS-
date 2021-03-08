@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+th,td {
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+}
+.table {
+    border-collapse: collapse;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 248, 248);
+}
+
+#userTable {
+    margin-top: 50px;
+}
+h3 {
+    margin-top: 70px;
+}
